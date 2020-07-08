@@ -1,0 +1,12 @@
+# program1
+Fibbonachi series
+a = 0
+b = 0
+c = a+b
+print(a)
+print(b)
+while(c<=144)
+    print(c)
+    a=b
+    b=c
+    c=a+b
